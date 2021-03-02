@@ -1,0 +1,58 @@
+main{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#caixa1{
+	width: 1000px;
+	height: 400px;
+	background-color: darkblue;
+}
+
+#caixa2{
+	width: 1000px;
+	height: 400px;
+	background-color: orange;
+}
+
+#caixa3{
+	width: 1000px;
+	height: 400px;
+	background-color: darkred;
+}
+
+#caixa4{
+	width: 1000px;
+	height: 400px;
+	background-color: black;
+}
+
+
+
+nav {
+	width: 100%;
+	background: #010101;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 10px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+nav a:hover {
+	color: skyblue;
+}
